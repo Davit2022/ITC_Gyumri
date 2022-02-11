@@ -48,7 +48,7 @@ class List
         }
 };
 int main(){
-11List obj;
+List obj;
  
 obj.addNode(5);
 obj.addNode(7);
