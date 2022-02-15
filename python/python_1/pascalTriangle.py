@@ -1,3 +1,4 @@
+
 num = int(input("Enter number: "))
 def pascalTriangle(num): 
      arr = []  
@@ -14,3 +15,6 @@ def pascalTriangle(num):
           print('{0:2}'.format(arr[i][j]),end="")  
       print()
 pascalTriangle(num)
+
+
+

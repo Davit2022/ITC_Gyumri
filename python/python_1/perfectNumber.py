@@ -1,7 +1,4 @@
 
-from ftplib import error_perm
-
-
 num = int(input("Enter number: "))
 def perfectNumber(n):
     sum = 0
