@@ -8,3 +8,4 @@ data = file.read()
 #number_of_characters = len(data)
 words = [word for word in data.split() if len(word) == 3]
 print('Number of characters in text file :', words)
+print ('Number of list items:', len(words))
