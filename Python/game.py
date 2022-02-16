@@ -1,0 +1,55 @@
+import random
+from posixpath import split
+ 
+name = input("What is your name? ")
+ 
+print("Okey! ", name)
+ 
+words = ['Heghine', 'oil', 'thanks', 'good', 'programer', 'computer', 'job', 'quickly', 'mathematics']
+x = len(words) 
+print(x)
+quantity = random.randint(0, x-1)
+print(words[quantity])
+
+while quantity > 0:
+     
+    failed = 0
+     
+    for i in word:
+         
+  
+        if i in guesses:
+            print(i, end=" ")
+             
+        else:
+            print("_")
+             
+            failed += 1
+             
+ 
+    if failed == 0:
+    
+        print("\nYou Win")
+         
+
+        print("The word is: ", word)
+        break
+     
+  
+    print()
+    guess = input("guess a character:")
+
+    guesses += guess
+     
+    if guess not in word:
+         
+        quantity -= 1
+         
+        print("Wrong")
+         
+        print("You have", + quantity, 'more guesses')
+         
+         
+        if quantity == 0:
+            print("You Loose")
+            print("The word is", word) 
