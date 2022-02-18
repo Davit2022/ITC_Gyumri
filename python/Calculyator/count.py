@@ -35,9 +35,9 @@ except ZeroDivisionError:
     print("You can't divide by zero!")
 if opr == "-":
         res = sub_numbers(a, b)    
-if opr == "+":      
+elif opr == "+":      
         res = add_numbers(a, b)
-if opr == "*":
+elif opr == "*":
         res = multi_numbers(a, b)
 
 print(res)
