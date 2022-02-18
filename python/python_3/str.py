@@ -10,7 +10,7 @@ while i < len(str):
     i += n
 data = chunks
 
-for i in range(len(chunks)):
+for i in range(len(data)):
     if data[i] != 'SOS':
         print(i)
 
