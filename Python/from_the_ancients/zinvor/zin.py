@@ -5,8 +5,6 @@ height = int (input ("Height: "))
 qash = int (input("Weight: "))
 fizo = int (input ("Fizikakan ete qash@ 75-120kg (good)1/0(normal)"))
 
-#print (anun)
-
 def zin (anun, height, qash, fizo):
 	listt = [anun]
 	if height >= 180 and qash <= 75:
@@ -17,7 +15,6 @@ def zin (anun, height, qash, fizo):
 	    print(listt, "RPK-74")
 	else:
 	    print(listt, "AK-74")
-	#listt = [anun, zin]
 
 zin (anun, height, qash, fizo)
 
