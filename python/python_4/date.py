@@ -18,11 +18,11 @@ class Date:
         
 
 mystr = "01/05/2022"
-m = mystr.split('/')
+m = mystr.split("/")                  
 day = m[0]
 mounth = m[1]
 year = m[2]
-mydate = Date(m[0],m[1],m[2])
+mydate = Date(day,mounth,year)
 obj = mydate.getValue()
 print(obj)
 mydate.dateValidator(mystr)

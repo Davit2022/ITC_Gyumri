@@ -38,7 +38,7 @@ def main():
     doorsCount = int(input('Enter the car doors count: '))
     color = str(input('Enter the car color: '))
 
-    mycar = Car(name,engine,doorsCount, color)
+    mycar = Car(name,engine,doorsCount,color)
     print(mycar.getName())
     print(mycar.getEngine())
     print(mycar.getDoorsCount())

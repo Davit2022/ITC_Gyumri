@@ -1,4 +1,4 @@
-str = 'SSOSOSOOSSSOS0S'
+str = 'ssososoosssosossoo'
 n = 3
 chunks = []  
 i = 0
@@ -10,9 +10,12 @@ while i < len(str):
     i += n
 data = chunks
 
-for i in range(len(data)):
-    if data[i] != 'SOS':
-        print(i)
-
- 
+print(data)
+i = 0
+while i != len(data):
+    if data[i][0] == 's' and data[i][1] == 'o' and data[i][2] == 's':
+        pass
+    else:     
+        print(i)          
+    i+=1
 
