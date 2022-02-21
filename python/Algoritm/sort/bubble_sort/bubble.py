@@ -9,9 +9,9 @@ def bubble_sort(list1):
                 list1[index+1] = temp  
                 ok = True
         if ok == False:
-            break
-        
+            break        
     return list1
+
 if __name__ == "__main__":
     arr = [] 
     element = 1
