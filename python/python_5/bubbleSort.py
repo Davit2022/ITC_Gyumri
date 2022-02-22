@@ -1,6 +1,4 @@
 
-arr = [6,10,5,1,2,9,-1]
-
 def bubbleSort(data):
     for i in range(len(data)):
         for j in range(i+1,len(data)):
@@ -9,4 +7,7 @@ def bubbleSort(data):
                 data[i] = data[j] 
                 data[j] = temp
     return data
-print(bubbleSort(arr))     
+
+if __name__ == "__main__":
+    arr = [6,10,5,1,2,9,-1]
+    print(bubbleSort(arr))     
