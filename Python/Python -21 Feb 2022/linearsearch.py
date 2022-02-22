@@ -1,7 +1,6 @@
 # Linear Search in Python
 
 def linearSearch(array, n, x):
-
     for i in range(0, n):
         if (array[i] == x):
             return i
