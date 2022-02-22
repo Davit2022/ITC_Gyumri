@@ -1,8 +1,8 @@
-def printHello():
+def printHello(hi="World"):
     if __name__ == "__main__":
-        print("Hello World")
+        print(f"Hello {hi}")
     else:
-            print(f"Hello Gyumri")
+            print(f"Hello {hi}")
 
 
 printHello()            
