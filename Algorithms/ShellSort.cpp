@@ -1,4 +1,4 @@
-// Shell Sort in C++ programming
+// Shell Sorting
 
 #include <iostream>
 using namespace std;
