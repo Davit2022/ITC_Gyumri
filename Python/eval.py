@@ -1,20 +1,16 @@
-data = "5+4/2"
-
-def eval(data: str) -> int:
-    if '*' in data:
-        a, b = data.split('*', 1)
-        return float(eval(a)) * float(eval(b))
-    if '+' in data:
-        a, b = data.split('+', 1)
-        return float(eval(a)) + float(eval(b))
-    if '-' in data:
-        a, b = data.split('-', 1)
-        return float(eval(a)) - float(eval(b))
-    if '/' in data:
-        a, b = data.split('/', 1)
-        return float(eval(a)) / float(eval(b))
-
-    return data
-
-if __name__ == '__main__':
-    print(eval(data))
+def evo(exp):
+ count = 0
+for char_index in range(len(exp)):
+	if exp[char_index]=='(':
+      count +=1
+	if exp[char_index]==')':
+      count -=1
+	if count < 0
+      pass
+	if count == 0:
+	  print(eval(exp))
+ except Exector as e:	
+	print"Error", e)
+x = 10
+st = "(x + 10) + 10"
+evo(st)
