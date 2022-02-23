@@ -17,14 +17,16 @@ sumbl1 = '('
 sumbl2 = ')'
 l = len(data) - 1
 s = 0
-s2 = 0
-s3= 0
-k = data[s+=1]
-#	for s < data[l]
-#		if data[s2] == '('
-#			if data[]
-#    return data
-print(data[0], data[l], data[k]) 
+	
+while s < data[l]:
+	if data[s] == '(' and data[l] == ')':
+		foo(data)
+		s += 1
+		break
+	else:
+		print('You have ()- problem')
+   
+print(data[0], data[l]) 
 
 
 if __name__ == '__main__':
