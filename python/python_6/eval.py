@@ -1,4 +1,3 @@
-
 def evalFun(st):
     count = 0
     for i in st:
@@ -16,27 +15,40 @@ def evalFun(st):
         arr = st.split(op)
         print(arr)
         if op == '+':
-            s = 0
-            for i in arr:
-                s=s + int(i)
-            print(s)         
+            return add(arr)       
         if op == '-':
-            res = 0
-            for i in range(len(arr)):
-                res = int(arr[i]) - int(arr[i-1])
-            print(res)
+            return minus(arr)
         if op == '/':
-            for i in arr:
-                res = int(i / i)
-            print(res)
+            return divide(arr)
         if op == '*':
-            res = 1
-            for i in arr:
-                res = res * int(i)     
-            print(res)
+            return multiplication(arr)
         else:
             pass
+
+def add(arr):
+    s = 0
+    for i in arr:
+        s=s + int(i)
+    return s  
+
+def minus(arr):
+    res = 0
+    for i in range(len(arr)):
+        res = int(arr[i-1]) - int(arr[i])
+    return res
+
+def divide(arr):
+    for i in arr:
+        res = int(i / i)
+    return res
+
+def multiplication(arr):
+    res = 1
+    for i in arr:
+        res = res * int(i)     
+    return res
 
 if __name__ == "__main__":
     st = input("Enter the number: ")
     print(evalFun(st))
+
