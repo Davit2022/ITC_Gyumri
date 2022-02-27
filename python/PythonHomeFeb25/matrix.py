@@ -1,8 +1,7 @@
 
 
 def printMatrix(size):
-    for j in range(0,size*size):
-        mat = [[7 for _ in range(size)] for _ in range(size)]
+    mat = [[7 for _ in range(size)] for _ in range(size)]
     for i in mat:
         print(i)
     
