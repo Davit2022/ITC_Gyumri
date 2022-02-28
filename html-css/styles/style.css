@@ -1,0 +1,40 @@
+.main{
+    width: 300px;
+    padding: 10px;
+    border: 2px solid rgb(111, 112, 111);
+    border-radius: 5px;
+    background-color: #f1f1f1;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+}
+.img{
+    margin: auto;
+    width: 50%;
+}
+.title{
+    margin: auto;
+}
+.title h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #363738;
+    margin-left: 70px;
+}
+.desc{
+    color: #363738;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+button{
+    padding: 7px 10px;
+    color: #d7dbdf;
+    margin: 30px;
+    font-size: 17px;
+    background-color: rgb(111, 112, 111);
+    border: none;
+}
+.button button:hover{
+    color: rgb(111, 112, 111);
+    background-color: #d7dbdf;
+}
