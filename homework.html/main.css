@@ -1,0 +1,27 @@
+
+.img1{
+    width: 100px;
+    height: 200px;
+
+}
+
+.fullname{
+    font-size: 25px;
+    color: black;
+
+}
+
+.social{
+    width: 200px;
+    height: 200px;
+
+
+}
+
+.social > p > a > img{
+    width: 15px;
+}
+
+.container{
+    background-color: rgb(130, 132, 134);
+}
