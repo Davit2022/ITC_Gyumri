@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+}
+
+.main {
+    width: 200px;
+    height: 100px;
+}
+
+header h1 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+section {
+    display: flex;
+}
+
+img {
+    border-radius: 60%;
+    border-style: solid;
+    border-color: rgb(47, 248, 255);
+    margin-left: 10px;
+}
+
+.info {
+    margin-left: 20px;
+}
+
+footer a {
+    background-color: rgb(6, 152, 250);
+    color: rgb(47, 255, 238);
+    padding: 20px;
+    border-style: solid;
+    border-color: rgb(53, 253, 226);
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+}

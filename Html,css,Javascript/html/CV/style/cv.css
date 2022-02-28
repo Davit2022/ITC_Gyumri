@@ -1,0 +1,20 @@
+    body {
+        padding-left: 40px;
+        font-family: sans-serif;
+        font-size: 25px;
+    }
+    
+    h1 {
+        text-decoration-color: red;
+        text-decoration-line: overline;
+        text-shadow: 2px 2px 5px rgb(0, 255, 234);
+        font-family: "Sofia", sans-serif;
+    }
+    
+    h2 {
+        font-family: "Sofia", sans-serif;
+    }
+    
+    img {
+        border-radius: 60%;
+    }
