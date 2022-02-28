@@ -41,36 +41,34 @@ for i in matrix:
     print(i)
 result2 = int(input("A(1),B(2),C(3),D(4),E(5),F(6),G(7),H(8)"))
 result3 = int(input("1(1),2(2),3(3),4(4),5(5),6(6),7(7),8(8)"))
-def rook():
-    if result2 < 9 and result2 > 0 and result3 < 9 and result3 > 0:
-        if result == result2 and result1 != result3:
-            for i in matrix:
-                if result1 > result3:
-                    while result1 != result3:
-                        result1 = result1 - 1
-                        matrix[result1][result] = '♜'
-                        matrix[result1 + 1][result] = '*'
-                elif result1 < result3:
-                    result1 = result1 + 1
+if result2 < 9 and result2 > 0 and result3 < 9 and result3 > 0:
+    if result == result2 and result1 != result3:
+        for i in matrix:
+            if result1 > result3:
+                while result1 != result3:
+                    result1 = result1 - 1
                     matrix[result1][result] = '♜'
-                    matrix[result1 - 1][result] = '*'
-        elif result != result2 and result1 == result3:
-            for i in matrix:
-                if result > result2:
-                    while result != result2:
-                        result = result - 1
-                        matrix[result1][result] = '♜'
-                        matrix[result1][result + 1] = '*'
-                elif result < result2:
-                    result = result + 1
+                    matrix[result1 + 1][result] = '*'
+            elif result1 < result3:
+                result1 = result1 + 1
+                matrix[result1][result] = '♜'
+                matrix[result1 - 1][result] = '*'
+    elif result != result2 and result1 == result3:
+        for i in matrix:
+            if result > result2:
+                while result != result2:
+                    result = result - 1
                     matrix[result1][result] = '♜'
-                    matrix[result1][result - 1] = '*'
-        else:
-            print("the boat can not go through those coordinates")
-            exit(0)
+                    matrix[result1][result + 1] = '*'
+            elif result < result2:
+                result = result + 1
+                matrix[result1][result] = '♜'
+                matrix[result1][result - 1] = '*'
     else:
-        print("There is no such number in chess")
+        print("the boat can not go through those coordinates")
         exit(0)
-
-    for i in matrix:
-        print(i)
+else:
+    print("There is no such number in chess")
+    exit(0)
+for i in matrix:
+    print(i)
