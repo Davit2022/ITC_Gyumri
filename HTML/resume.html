@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html leng="en">
+    <head>
+        <meta charset="UTF-8">
+    <title>Փաստաթուղթ</title>   
+ </head>
+    <body>
+        <h2>Անձնական տվյալներ</h2>
+      <form action="data.php" method="get">
+          <p><input type="text" placeholder="Անուն"></p>
+          <p><input type="password" placeholder="Գաղտնաբառ"></p>
+          <p><input  type="phone"  placeholder="Հեռախոսահամար">  </p>
+          <p><input type="e-mail"  placeholder="Էլեկտրոնային հասցե"> </p>
+
+          <p> Սեռ </p>
+          <p>
+             <label><input type="radio"> Իգ  </label>
+             <label> <input type="radio">  Ար </label>                           
+          </p>
+
+          <p> Լեզու </p>
+          <p>
+             <label> <input type="checkbox">Հայերեն"     </label>
+             <label><input type="checkbox">Ռուսերեն" </label>
+             <label><input type="checkbox">Անգլերեն </label>
+          </p>
+         <p> Քաղաք</p>
+         <p>
+             <select name="">
+               <option> Գյումրի</option>
+               <option> Երևան</option>
+               <option> Վանաձոր</option>
+             </select>
+         </p>
+         <p>
+             <p><label for="text">Մեկնաբանություն</label> </p>
+             <p><textarea name="message" rows="10" td="text">տեքստ...</textarea> </p>
+
+         </p>
+         <p>
+             <input type="reset" value="Մաքրել">
+             <input type="submit" value="ՈՒղարկել">
+         </p>
+        </body>
+</html>
