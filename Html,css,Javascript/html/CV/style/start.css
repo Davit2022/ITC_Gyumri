@@ -1,6 +1,11 @@
 body {
     font-family: sans-serif;
     padding-left: 30%;
+    /* background: rgba(230, 200, 200, 0.3); */
+    background-image: url("../img/cv-bg-3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .main {
@@ -20,7 +25,7 @@ section {
 img {
     border-radius: 100px;
     border-style: solid;
-    border-color: rgb(47, 248, 255);
+    border-color: rgb(145, 148, 148);
     margin-left: 10px;
 }
 
@@ -30,15 +35,14 @@ img {
 }
 
 footer a {
-    background-color: rgb(6, 152, 250);
-    color: rgb(47, 255, 238);
+    background-color: rgb(192, 200, 206);
+    color: rgb(0, 0, 0);
     padding: 20px;
     border-style: solid;
-    border-color: rgb(53, 253, 226);
+    border-color: rgb(129, 133, 132);
     border-radius: 10px;
     font-size: 20px;
     font-family: sans-serif;
     text-decoration: none;
+    cursor: pointer;
 }
-
-.backround {}
