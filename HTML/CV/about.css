@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    background-color: wheat;
+    background: url('beckground.jpg');
+    background-position: 0 1000px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    color: rgb(119, 126, 134);
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+h2{
+    color: rgb(45, 54, 65);
+    margin-top: 3px;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.card{
+    max-width: 1100px;
+    margin: 0 auto;
+    width: 50%;
+    background-color: #dbdbdb;
+    margin-top: 10px;
+    padding: 15px;
+    display: flex;
+
+}
+
+
+.image{
+    width: 33%;
+    
+}
+img{
+    width: 100%;
+}
+.image p{
+    font-size: 15.5px;
+    margin: 3px;
+    color: rgb(10, 10, 10);
+    line-height: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.contact{
+    clear: both;
+    margin-top: 50px;
+    width: 77%;
+
+}
+ul {
+  list-style-type: none;
+  text-align: right;
+  margin-top: 10px;
+}
+
+ul li p{
+    display: inline-block;
+}
+ul li p{
+    font-size: 22px;
+}
+h3{
+    text-align: right;
+    font-size: 30px;
+    color: #000;
+    text-decoration: underline;
+}
+.batton{
+    width: 30%;
+    margin: 0 auto;
+}
+.bin{
+    background: #acacac;
+    padding: 8px 16px;
+    font-size: 2rem;
+    margin-top: 40px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: background 0,5s;
+}
+.bin:hover{
+    background-color: rgb(255, 255, 255);
+    text-decoration:underline;
+}
