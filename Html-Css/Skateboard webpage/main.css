@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header.site-header {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+header.site-header div.logo {
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    background-image: url("images/ska.png");
+    background-size: contain;
+    border-radius: 30%;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 5px;
+    background-color: white;
+}
+
+header.site-header div.menu nav ul {
+    list-style-type: none;
+    display: flex;
+    background-color: black;
+}
+
+header.site-header div.menu nav ul li {
+    margin: 20px;
+}
+
+header.site-header div.menu nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: 0.1s;
+    border-bottom: 2px solid transparent;
+    border: 2px solid black;
+    padding: 5px;
+    background-color: #black;  
+}
+
+header.site-header div.menu nav ul li a:hover {
+    color: green;
+    border-bottom: 2px solid green;
+}
+
+header.site-header div.cart i {
+    height: 30px;
+    width: 30px;
+    color: black;
+    font-size: 30px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: white;
+
+}
+
+div.container {
+    display: flex;
+    margin-left: 720px;
+    margin-top: -320px;
+}
+
+h1{
+    display: flex;
+    color: white;
+    margin-left: 150px;
+    margin-top: 90px;
+    font-size: 50px;
+}
+p{
+    display: flex;
+    color: white;
+    margin-left: 180px;
+    margin-top: 50px;
+    font-size: 15px;
+}
+button{
+    color: black;
+    margin-left: 280px;
+    margin-top: 50px;
+    font-size: 15px;
+    background-color: white;
+    height: 40px;
+    width: 150px;
+}
+
+div.shop-item {
+    background-color: #ffffff;
+    font-size: 20px;
+    border: 2px solid #a1a1a1;
+    text-align: center; 
+}
+
+div.shop-item div.price {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    background-color: white;
+    height: 70px;
+    width: 320px;
+}
+
+div.shop-item img {
+    width: 320px;
+    height: 400px;
+}
+
