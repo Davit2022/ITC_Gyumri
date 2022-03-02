@@ -1,5 +1,4 @@
     body {
-        /* background-image: linear-gradient(to top, rgba(236, 227, 227, 0), rgb(22, 243, 225)); */
         font-family: sans-serif;
         display: flex;
         justify-content: center;
@@ -9,7 +8,7 @@
     
     input[type=text] {
         max-width: 400px;
-        background: fixed;
+        background: bottom;
         width: 200px;
         padding: 12px 20px;
         box-sizing: border-box;
@@ -21,7 +20,7 @@
     
     input[type=email] {
         max-width: 400px;
-        background: fixed;
+        background: bottom;
         width: 200px;
         padding: 12px 20px;
         margin: 8px 0;
@@ -33,7 +32,7 @@
     }
     
     input[type=password] {
-        background: fixed;
+        background: bottom;
         width: 130px;
         padding: 12px 20px;
         margin: 8px 0;

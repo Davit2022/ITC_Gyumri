@@ -8,16 +8,17 @@
 </head>
 
 <body>
-
     <div>
-        <form>
+        <form target="_blank" action="https://formspree.io/f/xqknbqnb" method="POST">
+            <input type="hidden" name="_subject" value="New Email!">
+            <input type="hidden" name="_next" value="file://home/davo/Desktop/homework/ITC_Gyumri/Html,css,Javascript/html/CV_generator/thanks.html">
             <h3>Name & Surname</h3>
-            <input type="text" id="fname" name="fname" placeholder="First Name" />
+            <input type="text" id="fname" name="fname" placeholder="First Name" required/>
             <br>
-            <input type="text" id="lname" name="lname" placeholder="Last Name" />
+            <input type="text" id="lname" name="lname" placeholder="Last Name" required/>
             <br>
             <h3>Select a picture</h3>
-            <input type="file" name="file" accept="image/*" placeholder=" " />
+            <input type="file" name="file" accept="image/*" placeholder=" " required/>
             <h3>Skills</h3>
             <input type="checkbox" name="checkbox"> Armenian
             <br>
@@ -26,19 +27,20 @@
             <input type="checkbox" name="checkbox"> Russian
             <br>
             <h3>Birhtday</h3>
-            <input type="date" name="date" placeholder=" " />
+            <input type="date" name="date" placeholder=" " required/>
             <h3>Description</h3>
             <textarea placeholder="Description" rows="15" cols=50>
             </textarea>
 
             <h2>Contact</h2>
 
-            <input type="email" name="email" placeholder="EmailName@gmail.com" />
+            <input type="email" name="email" placeholder="EmailName@gmail.com" required/>
             <br>
-            <input type="text" name="text" placeholder="077-77-77-77" />
+            <input type="text" name="text" placeholder="077-77-77-77" required/>
             <br>
             <ul>
-                <input type="submit" value="Submit">
+                <button type="submit">Submit</button>
+                <!-- href="file:cv.html" -->
                 <input type="reset" value="Reset">
             </ul>
         </form>
