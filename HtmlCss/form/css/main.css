@@ -1,3 +1,10 @@
+body {
+    background: url(../img/download.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* height: 100vh; */
+}
 
 .wrap {
     width: 300px;
@@ -27,8 +34,13 @@
     border: none;
 }
 
+label {
+    color: white;
+}
+
 #btn {
     height: 35px;
-    background-color: greenyellow;
+    color: white;
+    background-color: #4d7e00;
     cursor: pointer;
 }

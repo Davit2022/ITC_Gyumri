@@ -1,0 +1,252 @@
+* {
+   margin: 0;
+   padding: 0;
+   margin: 0 auto;
+   box-sizing: border-box;
+}
+
+.wrap > .bgImg {
+    width: 100%;
+    height: 91vh;
+    background: url("./img/0x0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bgImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bgImg > .bgContent {
+    color: white;
+}
+
+.bgImg > .bgContent > h1 {
+    color: white;
+    font-size: 80px;
+}
+
+
+
+.header{
+    background: #dc3545;
+    height: 60px;
+    width: 100%;
+}
+
+.logo {
+    color: white;
+    font-size: 1.8em;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+nav ul{
+    float: right;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 60px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #ebeced;
+    font-size: 17px;
+    padding: 7px 13px;
+}
+
+nav ul li a:hover {
+    color: darkgrey;
+}
+
+
+.checkBtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 60px;
+    margin-right: 10px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container > .flex-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper-col {
+    width: 400px;
+    height: 250px;
+    margin: 20px;
+    color: white;
+}
+
+.col-1 {
+    background: url("./img/images-4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.col-2 {
+    background: url("./img/images-5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.col-3 {
+    background: url("./img/images-6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container > h2  {
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.container .btn {
+    display: inline-block;
+    padding: 10px 15px 10px 15px;
+    background-color: #dc3545;
+    color: white;
+}
+
+.container .btn a {
+    color: white;
+    text-decoration: none;
+}
+
+div p{
+    font-size: 24px;
+}
+
+div h3{
+    font-size: 30px;
+}
+.wrapper-col {
+    padding: 30px;
+}
+
+.btn{
+    margin-top: 32px;
+}
+
+.btn:hover{
+    background-color: gray;
+}
+
+.col-4 {
+    background: url("./img/7192-P8vkkL.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.col-5 {
+    background: url("./img/-Qisong-Fashion-Red-Colour-Aluminum-Car-Muffler-Tail-Tube.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.col-6 {
+    background: url("./img/depositphotos_5749129-stock-photo-shock-absorber-car.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content-1 {
+    margin-top: 170px;
+    color: #240000;
+}
+ 
+.content-1 a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+.content-1 p{
+    font-size: 16px;
+}
+
+
+
+
+@media (max-width: 640px) {
+    .checkBtn{
+        display: block;
+    }
+
+    .logo {
+        color: white;
+        font-size: 1.55em;
+        padding-left: 10px;
+    }
+    nav{
+        height: 60px;
+    }
+
+    nav ul{
+        width: 100%;
+        background-color: #dc3545;
+        text-align: center;
+        display: none;
+    }
+
+    nav ul li {
+        display: block;
+        float: left;
+        width: 100%;
+    }
+
+    #check:checked ~ ul {
+        display: block;
+    }
+
+    .flex-box {
+        flex-wrap: wrap;
+    }
+
+    .bgImg {
+        text-align: center;
+        color: white;
+        font-size: 80px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
