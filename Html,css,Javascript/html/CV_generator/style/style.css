@@ -1,65 +1,72 @@
-body {
-    background-image: linear-gradient(to top, rgba(236, 227, 227, 0), rgb(22, 243, 225));
-}
-
-input[type=text] {
-    background: fixed;
-    width: 130px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: none;
-    border-bottom: 2px solid red;
-    transition: width 0.4s ease-in-out;
-}
-
-input[type=text]:focus {
-    width: 30%;
-}
-
-input[type=email] {
-    background: fixed;
-    width: 130px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: none;
-    border-bottom: 2px solid red;
-    transition: width 0.4s ease-in-out;
-}
-
-input[type=email]:focus {
-    width: 30%;
-}
-
-input[type=password] {
-    background: fixed;
-    width: 130px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: none;
-    border-bottom: 2px solid red;
-    transition: width 0.4s ease-in-out;
-}
-
-input[type=password]:focus {
-    width: 30%;
-}
-
-input:not(:placeholder-shown)[type=text] {
-    border-color: green;
-}
-
-input:not(:placeholder-shown)[type=email] {
-    border-color: green;
-}
-
-input:not(:placeholder-shown)[type=password] {
-    border-color: green;
-}
-
-
-/* input:placeholder-shown[type=text] {
+    body {
+        /* background-image: linear-gradient(to top, rgba(236, 227, 227, 0), rgb(22, 243, 225)); */
+        font-family: sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    input[type=text] {
+        max-width: 400px;
+        background: fixed;
+        width: 200px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 2px solid red;
+        transition: width 0.4s ease-in-out;
+        text-align: center;
+    }
+    
+    input[type=email] {
+        max-width: 400px;
+        background: fixed;
+        width: 200px;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 2px solid red;
+        transition: width 0.4s ease-in-out;
+        text-align: center;
+    }
+    
+    input[type=password] {
+        background: fixed;
+        width: 130px;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 2px solid red;
+        transition: width 0.4s ease-in-out;
+        text-align: center;
+    }
+    
+    input[type=text]:focus,
+    input[type=email]:focus {
+        width: 95vw;
+        outline: none;
+    }
+    
+    input[type=reset],
+    input[type=file],
+    input[type=submit] {
+        cursor: pointer;
+    }
+    
+    input:not(:placeholder-shown)[type=text] {
+        border-color: green;
+    }
+    
+    input:not(:placeholder-shown)[type=email] {
+        border-color: green;
+    }
+    
+    input:not(:placeholder-shown)[type=password] {
+        border-color: green;
+    }
+    /* input:placeholder-shown[type=text] {
     border-color: red;
 } */
