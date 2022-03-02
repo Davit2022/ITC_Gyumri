@@ -67,6 +67,3 @@
     input:not(:placeholder-shown)[type=password] {
         border-color: green;
     }
-    /* input:placeholder-shown[type=text] {
-    border-color: red;
-} */
