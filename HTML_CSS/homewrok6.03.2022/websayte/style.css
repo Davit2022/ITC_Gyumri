@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+.Verevi-sexan{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./images/glavni.jpg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+
+}
+.sexan{
+    width: 100%;
+    height: 94px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+ 
+    
+}
+
+.sexan ul li {
+    border-right: 2px solid #ff5722;
+    padding: 20px;
+    
+}
+
+.sexan ul li a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: #ff5722;
+}
+
+.arajin,
+.erkrord,
+.errord,
+.chorord,
+.hing{
+    border-top: #ff5722;
+;
+    
+}
+
+.arajin,
+.erkrord,
+.errord,
+.chorord,
+.hing:hover{
+    cursor: pointer;
+}
+
+
+
+.ajmas{
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    flex-direction: column;
+
+}
+
+.qashel, 
+.topsayt {
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(247, 140, 9);
+    border: 5px solid #ff5722;  
+    display: flex;
+    justify-content: flex-end;
+}
+
+.qashel{
+    display: flex;
+    background-color: #ff5722;
+    width: 215px;
+    height: 40px;
+
+}
+.qashel:hover {
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.topsayt:hover {
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+
+.fa-bars{
+    color: #ff5722; 
+    font-size: 50px; 
+    display: none;
+    
+}
+
+.mas2 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("./images/glavni2.jpg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    font-size: 25px;
+    color: red;
+}
+
+.mas22 {
+    /* margin-top: 250px ; */
+   padding: 162px;
+   display: flex;
+   justify-content: center;
+   flex-wrap: nowrap;
+   align-items: center;
+   align-content: space-around;
+   flex-direction: column;
+}
+
+.mas3 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/arsenal4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+
+
+}
+
+h2 {
+    color: rgb(156, 18, 18);
+    display: flex;
+    font-size: 50px;
+   
+    justify-content: space-around;
+    /* flex-direction: column; */
+    align-content: center;
+    align-items: flex-end;
+    border: 5px solid #ff5722;  
+}
+h2:hover{
+    opacity: 0.6;
+    transition: 0.3s;   
+}
+
+.zenq1 {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    color: #db3100;
+    font-size: 25px;
+    border: 20px solid #fff;
+    background-color: #341a1a7a;
+}
+
+.bushmaster {
+    border: 5px solid rgb(84, 84, 84);
+    background-color: #87353594;
+}
+
+.araji-zenq {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.zenq2 {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    color: #db3100;
+    font-size: 25px;
+    border: 20px solid #fff;
+    background-color: #341a1a7a;
+
+}
+
+.marlin {
+    border: 5px solid rgb(84, 84, 84);
+    background-color: #87353594;
+
+    
+}
+
+.erkrod-zenq {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.zenq3 {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    color: #db3100;
+    font-size: 25px;
+    border: 20px solid #fff;
+    background-color: #341a1a7a;
+
+}
+
+.scorpion {
+    border: 5px solid rgb(84, 84, 84);
+    background-color: #87353594;
+
+}
+
+.erord-zenq {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.zenq4 {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    color: #db3100;
+    font-size: 25px;
+    border: 20px solid #fff;
+    background-color: #341a1a7a;
+
+}
+
+.F90 {
+    border: 5px solid rgb(84, 84, 84);
+    background-color: #87353594;
+}
+
+.chorord-zenq {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.zenq5 {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    color: #db3100;
+    font-size: 25px;
+    border: 20px solid #fff;
+    background-color: #341a1a7a;
+
+}
+
+.fabarm {
+    border: 5px solid rgb(84, 84, 84);
+    background-color: #87353594;
+
+}
+
+.hing-zenq {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#myVideo {
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.mas-3 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("./images/glavni2.jpg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    font-size: 25px;
+    color: red;
+}
+
+
+@media screen and (max-width: 760px){
+    .sexan {
+        width: 100%;
+        display: flex;
+        align-items: flex-end;  
+        
+    }
+    .sexan ul li a {
+        font-size: 20px;
+    }
+    .sexan ul {
+       flex-direction: column;
+
+    }
+    .logo {
+        width: 215px;
+        height: 62px;
+        padding: 10px;  
+    }
+    .fa-bars{
+        display: block;
+        margin-right: 30px;
+
+    }
+
+    .lolo {
+        position: fixed;
+        top: 14px;
+        right: 0;
+        /* z-index: 10000; */
+    }
+    
+
+    .koko {
+        display: none;
+        border: 5px solid #ff5722;  
+        background-color: #050000;
+        width: 100%;
+        position: fixed;
+        height: 47%;
+        width: 59%;
+        top: 51px;
+        right: 0;
+        float: right;
+    }
+
+    
+    .fa-bars:hover{
+        cursor: pointer;
+
+    }
+        
+    .lolo:hover + .koko{
+        display: flex;
+        /* align-items: flex-end; */
+    } 
+
+    .qashel, .topsayt{
+        display: none;
+    }
+    .koko:hover{
+        display: flex; 
+
+    }
+} 
+
+
+
+
+
