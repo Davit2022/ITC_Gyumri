@@ -149,6 +149,75 @@ nav ul li a:hover {
 }
 
 
+.footerPan {
+    background-color: #a1a2a6;
+    padding: 30px;
+}
+
+.footerPan .footer-logo {
+    color: white;
+}
+
+.footerPan .footer-content div{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.footerPan .footer , .footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+} 
+
+.footerPan .footer-content {
+    width: 200px; 
+    display: flex; 
+    justify-content: space-between;
+} 
+
+.footerPan .footer-container .title {
+    color: white;
+    padding-bottom: 15px;
+}
+
+.footerPan .p {
+    padding-top: 10px;
+}
+
+.footerPan .footer-container  .p > a {
+    text-decoration: none;
+    color: white;
+}
+
+.footerPan .input {
+    width: 200px; 
+    height: 35px;
+    padding: 5px;
+    border: 2px solid white;
+    outline: none;
+    background-color: #a1a2a6;
+}
+
+.footerPan .input::placeholder{
+    color: white;
+}
+
+.footerPan .btn {
+    width: 200px;
+    height: 35px;
+    background-color: #a1a2a6;
+    color: white;
+}
+
+
+
+
+
 
 @media (max-width: 670px) { 
     .checkBtn{
@@ -189,15 +258,46 @@ nav ul li a:hover {
     .img > img {
         width: 100%;
     }
+
+    .footerPan {
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+
+    .footer{
+        flex-wrap: wrap;
+    }
 }
 
-@media (max-width: 535px) {
+@media (max-width: 550px) {
     .img {
         width: 100%;
     }
 
    .img > img {
        width: 100%;
+   }
+
+    .footerPan .footer {
+       flex-wrap: wrap;
+   }
+
+   .footer{
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .footer .footer-content{
+        padding-top: 20px;
+    }
+
+   .footer-container {
+       flex-wrap: wrap;
+   }
+
+   .footer-container div {
+       width: 100%;
+       margin: 15px;
    }
 }
 
@@ -209,6 +309,10 @@ nav ul li a:hover {
 
     .img > img {
         width: 100%;
+    }
+
+    .footer{
+        flex-wrap: nowrap;
     }
 }
 
