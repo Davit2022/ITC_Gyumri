@@ -1,4 +1,4 @@
-a=int(input("Enter the count"))
+a=int(input("Enter the count  "))
 f=0                                         
 s=1                                         
 if a<=0:
