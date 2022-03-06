@@ -154,6 +154,12 @@ nav ul li a:hover {
     padding: 30px;
 }
 
+.footerPan .footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .footerPan .footer-logo {
     color: white;
 }
@@ -171,7 +177,7 @@ nav ul li a:hover {
 .footerPan .footer , .footer-container {
     display: flex;
     justify-content: space-between;
-    padding-top: 30px;
+    padding-bottom: 30px;
 } 
 
 .footerPan .footer-content {
@@ -214,7 +220,15 @@ nav ul li a:hover {
     color: white;
 }
 
+.footerPan .map {
+    width: 50%;
+    margin-top: 30px; 
+}
 
+.footerPan .map iframe {
+    width: 100%;
+    height: 300px;
+}
 
 
 
@@ -267,6 +281,7 @@ nav ul li a:hover {
     .footer{
         flex-wrap: wrap;
     }
+
 }
 
 @media (max-width: 550px) {
@@ -284,11 +299,6 @@ nav ul li a:hover {
 
    .footer{
         flex-wrap: wrap;
-        padding: 10px;
-    }
-
-    .footer .footer-content{
-        padding-top: 20px;
     }
 
    .footer-container {
@@ -297,7 +307,15 @@ nav ul li a:hover {
 
    .footer-container div {
        width: 100%;
-       margin: 15px;
+       margin-top: 30px;
+   }
+
+   .footerPan .input , .footerPan .btn , .footerPan {
+       width: 100%;
+   }
+
+   .footerPan > .map {
+       width: 100%;
    }
 }
 

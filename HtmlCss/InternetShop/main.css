@@ -1,10 +1,8 @@
 * {
-   margin: 0;
    padding: 0;
    margin: 0 auto;
    box-sizing: border-box;
 }
-
 
 .wrap > .bgImg {
     width: 100%;
@@ -261,7 +259,6 @@ div h3{
     margin-top: 30px;
 }
 
-
 .footer h2{
     text-align: center;
     font-size: 50px;
@@ -280,8 +277,13 @@ div h3{
     background-color: #f1eeee;
 }
 
+@media (max-width: 680px) {
+     .footer-content {
+        width: 100%;
+    }
+}
 
-@media (max-width: 640px) {
+@media (max-width: 697px) { 
     .checkBtn{
         display: block;
     }
@@ -326,6 +328,8 @@ div h3{
         color: white;
     }
 
+    
+
     .flex-box {
         flex-wrap: wrap;
     }
@@ -337,6 +341,7 @@ div h3{
     .wrap > .bgImg{
         top: 0;
     }
+
     .bgImg {
         text-align: center;
         color: white;
@@ -344,14 +349,14 @@ div h3{
     }
 
     .footer-wrap {
+        width: 100%;
         flex-wrap: wrap;
     }
 
     .footer-content {
-        width: 100%;
         margin: 20px;
     }
-}
+} 
 
 
 
