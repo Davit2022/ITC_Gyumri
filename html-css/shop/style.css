@@ -13,7 +13,12 @@ body{
     height: 100%;
 }
 .logo{
-	width: 100%;
+	width: 90%;
+	border-style: none;
+	margin-top:5px;
+}
+.logo_div{
+	background-color:black;
 	border-style: none;
 }
 .home{
@@ -304,10 +309,44 @@ body{
 .the_end:hover{
 	color: #ecf3ed;
 }
+
+.burger .b{
+		width: 35px;
+		height: 5px;
+		background-color: #ecf3ed;
+		margin: 6px 0;
+}
+.burger{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	display:none;
+	margin:10px;	
+}
+.burger .dropdown-content{
+	color: #ecf3ed;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	display: none;
+}
+
+.burger:hover .dropdown-content {display: block;}
+
+.dropdown-content a {
+	color: #ecf3ed;
+	text-decoration: none;
+	display: block;
+	margin:5px;
+  } 
+  .dropdown-content a:hover{
+	color:grey;
+  }
 @media screen and (max-width: 800px) {
 	.menu, .menu i, .logo{
 		display: none;
 	}
+
 	.menu{
 		display: flex;
 		top: 0px;
@@ -320,14 +359,20 @@ body{
 	.menu:hover{
 		opacity: 1;
 	}
-	.menu_items{
+	.menu_items, .home{
+		
 		background-color: black;
+		color:black;
 	}
 	.menu_items:hover{
-		background-color: #ccc;
+		background-color: black;
 		color: black;
 	}
-	.photos, .inputs{
+	.home:hover{
+		background-color: black;
+		color: black;
+	}
+	.photos, .inputs, .burger, .burger div{
 		display: block;
 	}
 	.main_div, .content{
