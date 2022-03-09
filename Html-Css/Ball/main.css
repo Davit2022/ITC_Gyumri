@@ -1,0 +1,14 @@
+* {
+    background-color: rgb(59, 80, 80);
+}
+
+.ball{
+    margin-top: 150px;
+    margin-left: 300px;
+    width: 50px;
+    height: 50px;
+    background-image: url("ball.png");
+    background-size:contain;
+    transition: 0.5s;
+}
+
