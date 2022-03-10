@@ -200,7 +200,6 @@ div.main-menu nav ul li a {
     width: 100%;
     height: 100%;
     -webkit-backface-visibility: hidden;
-    /* Safari */
     backface-visibility: hidden;
 }
 
@@ -210,7 +209,8 @@ div.main-menu nav ul li a {
 }
 
 .flip-box-back {
-    background-color: dodgerblue;
+    background-color: #000000;
     color: white;
     transform: rotateY(180deg);
+    opacity: 0.8;
 }
