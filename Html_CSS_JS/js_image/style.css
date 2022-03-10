@@ -1,0 +1,93 @@
+/* .main{
+    width: 100%;
+    height: 100vh;
+} */
+
+.box{
+    display: flex;
+    justify-content: space-around;
+}
+.box .list {
+    display: flex;
+    align-items: center;
+}
+
+.box .list li a{
+    padding: 25px;
+    text-decoration: none;
+    transition: 0.5s;
+    color: rgb(0, 0, 0);
+}
+.box .list li {
+    transition: 0.5s;
+}
+
+.box .list li:hover{
+    background-color: rgb(155, 129, 129);
+}
+
+.box .list li a:hover{
+    color: rgb(255, 255, 255); 
+}
+
+.box .search {
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.box .search li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 25px;
+}
+
+.box .search li {
+    transition: 0.5s;
+}
+
+.box .search li:hover{
+    background-color: rgb(155, 129, 129);
+}
+
+.box .search li a:hover{
+    color: rgb(255, 255, 255); 
+}
+
+.icon{
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.img{
+    width: 80%;
+}
+
+.random{
+    margin-top: 20px;
+
+}
+
+.text h2{
+    text-align: center;
+    font-size: 44px;
+    color: rgb(180 46 35);
+    text-transform: uppercase;
+}
+
+.text h4{
+    text-align: center;
+}
+
+.Heghine{
+    width: 300px;
+    height: 200px;
+    padding-top: 10px;
+}
+#wrap{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5px;
+        padding-right: 5px;
+}
