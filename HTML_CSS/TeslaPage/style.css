@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav_bar{
+    width: 98%;
+    height: 70px;
+    display: flex;
+    background-color: gainsboro;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.nav_bar div img{
+    height: 100px;
+}
+
+.nav_bar nav ul{
+    width: 600px;
+    display: flex;
+    padding: 20px;
+}
+
+.nav_bar nav ul li a {
+    color: black;
+    font-size: 1.0em;
+    margin: 20px;
+    border: 3px solid transparent;
+}
+
+.nav_bar nav ul li a:hover{
+    background-color: gray;
+    border: 3px solid gray;
+    border-radius: 15ch;
+    transition-duration: 0.4s;
+}
+
+.test_button button{
+    color: aliceblue;
+    width: 250px; 
+    height: 50px;
+    border-radius: 15ch;
+    background-color: black;
+    border: 2px solid black;
+}
+
+
+/* Model 3 */
+.model_3{
+    display: flex;
+    padding: 30px;
+}
+.model_3_two_buttons{
+    padding: 20px;
+}
+.model_3_text{
+    padding: 50px;
+    padding-top: 150px;
+    width: 100%;
+}
+.model_3_body_img img{
+    width: 100%;
+}
+
+.model_3_button_1 {
+    width: 180px; 
+    height: 40px; 
+    border-radius: 15ch;
+    background-color: white; 
+    border: 2px solid black;
+    transition-duration: 0.4s;
+}
+
+.model_3_button_1:hover {
+    background-color: black;
+    color: white;
+}
+
+.model_3_button_2{
+    width: 180px; 
+    height: 40px; 
+    border-radius: 15ch;
+    background-color: black; 
+    border: 2px solid black; 
+    color: aliceblue;
+    transition-duration: 0.4s;
+
+}
+.model_3_button_2:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Model s */
+.model_s{
+    width: 96%;
+    display: flex;
+    padding: 30px;
+}
+.model_s_two_buttons{
+    float: right;
+    padding: 20px;
+}
+.model_s_text{
+    padding: 90px;
+    width: 100%;
+}
+.model_s_body_img img{
+    width: 100%;
+}
+
+.model_s_button_1 {
+    width: 180px; 
+    height: 40px; 
+    border-radius: 15ch;
+    background-color: white; 
+    border: 2px solid black;
+    transition-duration: 0.4s;
+}
+
+.model_s_button_1:hover {
+    background-color: black;
+    color: white;
+}
+
+.model_s_button_2{
+    width: 180px; 
+    height: 40px; 
+    border-radius: 15ch;
+    background-color: black; 
+    border: 2px solid black; 
+    color: aliceblue;
+    transition-duration: 0.4s;
+}
+
+.model_s_button_2:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Model X */
+.model_x{
+    display: flex;
+    padding: 30px;
+}
+.model_x_two_buttons{
+    padding: 20px;
+}
+.model_x_text{
+    padding: 50px;
+    padding-top: 150px;
+    width: 100%;
+}
+.model_x_body_img img{
+    margin-top: 80px;
+    width: 100%;
+}
+
+.model_x_button_1 {
+    width: 180px; 
+    height: 40px; 
+    border-radius: 15ch;
+    background-color: white; 
+    border: 2px solid black;
+    transition-duration: 0.4s;
+}
+
+.model_x_button_1:hover {
+    background-color: black;
+    color: white;
+}
+
+.model_x_button_2{
+    width: 180px; 
+    height: 40px; 
+    border-radius: 15ch;
+    background-color: black; 
+    border: 2px solid black; 
+    color: aliceblue;
+    transition-duration: 0.4s;
+
+}
+.model_x_button_2:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Model Y */
+.model_y{
+    margin-top: 150px;
+    width: 96%;
+    display: flex;
+    padding: 30px;
+}
+.model_y_two_buttons{
+    float: right;
+    padding: 20px;
+}
+.model_y_text{
+    padding: 90px;
+    width: 100%;
+}
+.model_y_body_img img{
+    width: 100%;
+}
+
+.model_y_button_1 {
+    width: 180px; 
+    height: 40px; 
+    border-radius: 15ch;
+    background-color: white; 
+    border: 2px solid black;
+    transition-duration: 0.4s;
+}
+
+.model_y_button_1:hover {
+    background-color: black;
+    color: white;
+}
+
+.model_y_button_2{
+    width: 180px; 
+    height: 40px; 
+    border-radius: 15ch;
+    background-color: black; 
+    border: 2px solid black; 
+    color: aliceblue;
+    transition-duration: 0.4s;
+}
+
+.model_y_button_2:hover {
+    background-color: white;
+    color: black;
+}
