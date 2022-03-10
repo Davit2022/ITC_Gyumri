@@ -1,0 +1,28 @@
+.info1 {
+    background-color: rgb(106, 189, 24);
+    width: 300px;
+    padding-left:  50px;
+}
+img{
+padding-top: 30px;
+}
+.skills {
+    color: black;
+}
+.language{
+    color: black;
+}
+.language_list{
+    list-style-type: armenian;
+}
+h3{
+    color: rgb(106, 189, 24);
+}
+
+.main {
+    display: flex;
+}
+
+.info2 {
+    padding-left: 20px;
+}
