@@ -72,8 +72,6 @@
     text-align: center;
 }
 
-
-
 #register-form form{
     width: 400px;
 }
@@ -93,7 +91,7 @@
 #register-form .input input {
     width: 96%;
     height: 25px;
-    padding: 8px;
+    padding: 7px;
     border-radius: 10px;
     outline: medium
 }
@@ -108,7 +106,7 @@
                       input[type="password"], 
                       input[type="email"] {
     font-size: 20px;
-    padding: 8px;
+    padding: 7px;
 }
 
 #register-form #submit {

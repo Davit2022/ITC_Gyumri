@@ -1,5 +1,13 @@
 let obj = {}
 
+let name = document.getElementById('name')
+let surname = document.getElementById('surname')
+let password = document.getElementById('password')
+let email = document.getElementById('email')
+let male = document.getElementById('male')
+let female = document.getElementById('female')
+let p = document.getElementsByTagName('p')
+
 document.getElementById("user").addEventListener('click', function(){
     document.getElementById('sub-form').style.display = 'block';
 })
@@ -7,14 +15,7 @@ document.getElementById("user").addEventListener('click', function(){
 
 document.getElementById('submit').addEventListener('click',function(e){
     e.preventDefault()
-    let name = document.getElementById('name')
-    let surname = document.getElementById('surname')
-    let password = document.getElementById('password')
-    let email = document.getElementById('email')
-    let male = document.getElementById('male')
-    let female = document.getElementById('female')
-    let p = document.getElementsByTagName('p')
-    
+
     if(name.value == ''){
         p[0].style.display = 'block'
         name.style.border = '3px solid'
