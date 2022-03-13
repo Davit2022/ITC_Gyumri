@@ -1,4 +1,4 @@
-let ball = document.getElementById("ball")
+const ball = document.getElementById("ball")
 let x = 0
 
 ball.addEventListener("mouseover", function(e){

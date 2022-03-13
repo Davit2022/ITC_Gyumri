@@ -27,7 +27,7 @@ def secondaryDiagonal(data):
     for i in range(len(data)):
         for j in range(len(data)):
             if i + j == len(data) - 1:
-                print(data[i][j])
+                print(data[i][j], end = '')
             else:
                 print(" ", end='')
         print("")

@@ -58,24 +58,25 @@ function drawTable(data){
     } 
 }
 
+
 function quick(data){
     if (data.length <= 1) { 
 		return data;
 	} else {
-		var left = [];
-		var right = [];
-		var newArray = [];
-		var pivot = data.pop();
-		var length = data.length;
+		let left = [];
+		let right = [];
+		let newArray = [];
+		let pivot = data.pop();
+		let length = data.length;
 
-		for (var i = 0; i < length; i++) {
+		for (let i = 0; i < length; i++) {
 			if (data[i] <= pivot) {
-				left.push(data[i]);
+				left.push(+data[i]);
 			} else {
-				right.push(data[i]);
+				right.push(+data[i]);
 			}
 		}
-		return newArray.concat(quick(left), pivot, quick(right));
+		return newArray.concat(quick(left), +pivot, quick(right));
 	}
 }
 
