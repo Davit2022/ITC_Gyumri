@@ -1,21 +1,30 @@
-let log = document.querySelector(".login")
-let btn = document.querySelector(".sbm-btn")
+const App = () => {
+    const log = document.querySelector(".login")
+    const btn = document.querySelector(".sbm-btn")
 
-log.addEventListener("click",()=>{
-   let window = document.querySelector(".main")
-        if (window.style.display === "none") {
-            window.style.display = "block";
-            log.style.display = "none"
-        } else {
-             window.style.display = "none";
+    const handleOnClickFormIcon = () => {
+        const mainDiv = document.querySelector(".main")
+        if (mainDiv.style.display.includes("none")) {
+            mainDiv.style.display = "block";
+            log.style.display = "none";
+            return
         }
-})
+        mainDiv.style.display = "none";
 
-btn.addEventListener("click",()=>{
-     let name = document.querySelector(".name").value;
+    }
+
+    const handleOnClickForm = () => {
+        const name = document.querySelector(".name").value;
+        const email = document.querySelector(".email").value;
+        const password = document.querySelector(".password").value;
+
         console.log(name)
-     let email = document.querySelector(".email").value;
-         console.log(email)
-     let password = document.querySelector(".password").value;
-         console.log(password)
-})
+        console.log(email)
+        console.log(password)
+    }
+
+    log.addEventListener("click", handleOnClickFormIcon)
+    btn.addEventListener("click", handleOnClickForm)
+}
+// App
+window.document.addEventListener('DOMContentLoaded', App)

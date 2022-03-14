@@ -1,6 +1,7 @@
-let ball = document.querySelector(".ball")
-let size = 0
-ball.addEventListener("mouseover", ()=>{
-    size+=900
-    ball.style.marginLeft= size+"px";
-});
+const App = () => {
+    const ball = document.querySelector(".ball")
+    ball.addEventListener("mouseover", ()=>{
+        ball.style.marginLeft +="900px";
+    });
+}
+window.document.addEventListener('DOMContentLoaded', App)

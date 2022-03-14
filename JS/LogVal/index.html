@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="myscript.js"></script>
+</head>
+<body>
+    <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+        <div class="main">
+            <input type="text" class="first-name" placeholder="Enter First Name" name="fname">
+            <div class="name-err">Please Enter The Name</div>
+            <input type="text" class="last-name" placeholder="Enter Last Name">
+            <input type="password" class="password" placeholder="Enter password">
+            <input type="password" class="confirm-password" placeholder="Confirm password">
+            <button class="sbm-btn">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
