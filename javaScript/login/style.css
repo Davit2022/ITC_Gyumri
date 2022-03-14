@@ -12,20 +12,26 @@
 
 }
 
-input{
+input {
    width: 250px;
    height: 40px;
+   border: none;
    border-radius: 50px;
    padding-left: 20px;
    margin-top: 20px;
    margin-left: 20px;
+
 }
+input:focus {
+    
+    background-color:rgb(213, 246, 209);
+  }
 .btn{
     width: 150px;
     height: 50px;
     border-radius: 50px;
     padding-left: 10px;
-    background-color: chartreuse;
+    background-color: rgb(133, 240, 26);
     font-size: 20px;
     font-weight:bold;
     margin-top: 20px;
