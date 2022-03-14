@@ -1,0 +1,49 @@
+.header{
+    padding: 5px;
+    height: 70px;
+    border-radius: 7px;
+    display: flex;
+    background-color: brown;
+}
+.page{
+    margin-left: 10%;
+    margin-right: 7%;
+    color:grey;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.page:hover{
+    opacity: 0.7;
+}
+.log-btn{
+    margin-left: 32%;
+    margin-top: 15px;
+    width: 100px;
+    height: 40px;
+    background-color: gray;
+    color: brown;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: larger;
+    border: none;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.log-btn:hover{
+    background-color: brown;
+    color: gray;
+    border: 4px double gray;
+}
+.main{
+    padding: 10px;
+    border-radius: 7px;
+    background-color: #ccc;
+}
+.img{
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 2px solid green;
+}
