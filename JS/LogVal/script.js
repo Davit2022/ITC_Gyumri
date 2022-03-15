@@ -1,5 +1,5 @@
 const form = document.getElementById('form');
-const username = document.getElementById('username');
+const firstname = document.getElementById('firstname');
 const lastname = document.getElementById('lastname');
 const password = document.getElementById('password');
 const password2 = document.getElementById('password2');
@@ -28,17 +28,17 @@ const setSuccess = element => {
 
 const validateInputs = () => {
 
-    const usernameValue = username.value.trim();
+    const firstnameValue = firstname.value.trim();
     const lastnameValue = lastname.value.trim();
     const passwordValue = password.value.trim();
     const password2Value = password2.value.trim();
     const psw=  /^[A-Za-z]\w{6,10}$/;
     const isValidPsw = psw.test(passwordValue)
 
-    if(usernameValue === '') {
-        setError(username, 'Username is required');
+    if(firstnameValue === '') {
+        setError(firstname, 'First Name is required');
     } else {
-        setSuccess(username);
+        setSuccess(firstname);
     }
 
     if(lastnameValue === '') {
