@@ -58,6 +58,11 @@
     opacity: 0.8;
 }
 
+
+#register-form #sub-form:hover {
+    box-shadow: #5cd1df 0px 5px 15px;
+}
+
 #register-form #sub-form h2{
     color: white;
 }

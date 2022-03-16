@@ -80,3 +80,33 @@ function quick(data){
 	}
 }
 
+
+
+
+function numDesc(data){
+    if(data < 1){
+        return
+    }
+    console.log(data)
+    numDesc(data-1)
+}
+
+numDesc(5)
+
+
+function numAsc(data){
+    if(data < 1){
+        return
+    }
+   
+    numAsc(data-1)
+    console.log(data)
+}
+
+numAsc(5)
+
+
+
+
+
+
