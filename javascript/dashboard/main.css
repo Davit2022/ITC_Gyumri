@@ -1,0 +1,37 @@
+
+body {
+    background-color: #c7c7c7;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+}
+
+
+.item {
+    width: 500px;
+}
+
+.title , .sub-panel {
+    height: 30px;
+    padding: 10px;
+    height: auto;
+    border-bottom: 0.3px solid white;
+}
+
+.title {
+    background-color: #8c8ca7;
+    color: white;
+    font-weight: bold;
+}
+
+.sub-panel{
+    background-color: #ebebeb;
+    display: none;
+}
+
+.active {
+    display: block;
+}
+

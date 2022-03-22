@@ -1,5 +1,5 @@
 
-div{
+#wrap{
     width: 100%;
     height: 70vh;
     display: flex;
@@ -26,11 +26,6 @@ tr:nth-child(even) {
 }
 
 
-
-
-
-
-
 th{
     height: 25px;
     padding: 5px;
@@ -43,4 +38,9 @@ td {
     height: 25px;
     text-align: center;
     padding: 5px;
+}
+
+.search {
+    width: 100%;
+    text-align: center;
 }
