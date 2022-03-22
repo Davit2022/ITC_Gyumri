@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+}
+
+.main{
+    width: 500px;
+    height: 500px;
+    background-color:azure;
+}
+
+
+.first, .second, .third {
+    width: 500px;
+    height: 80px;
+    background-color:beige;
+    text-align: center;
+}
+
+h2{
+    
+    padding-top: 30px;
+}
+.firstItem,.secondItem,.thirdItem{
+
+   width: 500px;
+   height: 100px;
+   background-color:rgb(214, 180, 136);
+    display: none;
+}
