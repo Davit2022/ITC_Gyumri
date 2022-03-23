@@ -1,0 +1,27 @@
+.main{
+    margin: auto;
+    width: 70%;
+    color: rgb(95, 94, 94);
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.acordeon{
+    border-bottom: 2px solid #ccc;
+    padding: 15px;
+    transition: 0.2s;
+}
+.acordeon:hover{
+    color: rgb(65, 63, 63);
+    margin-left: 3px;
+    font-size: 17px;
+}
+.content{
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.4s;
+    margin-top: 10px;
+    
+}
