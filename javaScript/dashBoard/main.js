@@ -2,26 +2,25 @@ const App = ()=>{
     const EVENTS_TYPES = {
         CLICK: "click",
         };
-    const btn = document.querySelectorAll("#btn")
-    const item = document.querySelectorAll("#item")
+   
 
-    btn.forEach(element => 
+const btn = document.querySelectorAll(".btn")
 
-        element.addEventListener(EVENTS_TYPES.CLICK, () => showHide(item))
+btn.forEach(btn => {
+  btn.addEventListener(EVENTS_TYPES.CLICK, () => {
+  
+  const item = document.querySelectorAll(".item")
+     item.forEach(i=>{
       
-        )
-
-
-    const showHide = (element) => {
-        element.forEach(element=>
-            element.style.display = 
-            element.style.display === "none" 
-                ? "block" 
-                : "none"
-            
-            )
-        
-     }
+       if(i === btn.nextElementSibling && btn.nextElementSibling.style.display !== "block"){
+         i.style.display = "block"
+       } else{
+          i.style.display = "none"
+        }
+      })
+    
+    })
+  })
 }
 
 (function main(){

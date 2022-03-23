@@ -9,7 +9,7 @@ body{
 }
 
 
-.first, .second, .third {
+.btn {
     width: 500px;
     height: 80px;
     background-color:beige;
@@ -20,7 +20,7 @@ h2{
     
     padding-top: 30px;
 }
-.firstItem,.secondItem,.thirdItem{
+.item{
 
    width: 500px;
    height: 100px;
