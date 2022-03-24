@@ -32,7 +32,7 @@ const validateInputs = () => {
     const lastnameValue = lastname.value.trim();
     const passwordValue = password.value.trim();
     const password2Value = password2.value.trim();
-    const psw=  /^[A-Za-z]\w{6,10}$/;
+    const psw=  /^[A-Za-z]\w{8,10}$/;
     const isValidPsw = psw.test(passwordValue)
 
     if(firstnameValue === '') {
@@ -50,9 +50,9 @@ const validateInputs = () => {
     if(passwordValue === ''){
         setError(password, 'Password is required');
     } else if (passwordValue.length < 8 ){
-        setError(password, 'Password must be at least 8 character.');
+        setError(password, 'Password must be at least 8 character');
     }else if(!isValidPsw){
-        setError(password, 'Only characters, numbers, \'_\', first character-letter, 6-10 symbols');
+        setError(password, 'Only characters, numbers, \'_\', first character-letter, 8-10 symbols');
     }else{
         setSuccess(password);
     }
