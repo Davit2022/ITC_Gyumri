@@ -1,0 +1,42 @@
+body{
+  background: linear-gradient(to right, #254553, #203a43, #2c5364);
+}
+
+div{
+    margin-left:auto;
+    margin-right:auto;
+    padding:20px;
+    text-align:center;
+  }
+  table{
+    margin-left:auto;
+    margin-right:auto;
+    border-collapse:collapse;
+    border:2px solid darkblue;
+    text-align:center;
+    color: whitesmoke;
+  }
+  th{
+    border:2px solid gray;
+    padding:20px;
+    text-align:center;
+    background-color:#eee;
+    font-size: 45px;
+    color: darkcyan;
+    
+  }
+  td{
+    border:2px solid lightblue;
+    padding:10px;
+    text-align:center;
+    font-size: 30px;
+  }
+  .myInput{
+    margin-left:auto;
+    margin-right:auto;
+    padding:10px;
+    width:200%;
+    display:inline-block;
+    text-align: center;
+  }
+ 
