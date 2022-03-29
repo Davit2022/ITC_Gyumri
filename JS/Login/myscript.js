@@ -26,5 +26,5 @@ const App = () => {
     log.addEventListener("click", handleOnClickFormIcon)
     btn.addEventListener("click", handleOnClickForm)
 }
-// App
+
 window.document.addEventListener('DOMContentLoaded', App)

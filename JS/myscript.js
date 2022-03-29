@@ -103,4 +103,15 @@
             // }
             // const Mercedes = new Car("Mercedes", "Black")
 
+        //    var name = undefined;
+           var nam;
+            const myObj = {
+                name: "Hayk",
+                fn: () => {
+                    console.log(this.name)
+                }
+            }
+            myObj.fn()
+            console.log(nam)
+
      
