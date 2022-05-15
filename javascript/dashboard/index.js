@@ -1,5 +1,5 @@
 const App = ()=> {
-    const wrap = document.getElementsByClassName("wrap")
+    const wrap = document.getElementById("wrap")
     const HOST = "https://corona-api.com/countries/"
 
     Promise.all([
@@ -34,11 +34,11 @@ const App = ()=> {
             accordion.append(item)
         }
        
-        wrap[0].append(accordion)
+        wrap.append(accordion)
         ClickItem()
     }
 
-    function ClickItem() {
+    function ClickItem(){
         const subPan = document.getElementsByClassName("sub-panel")
         const item = document.getElementsByClassName("item")
         for (let i = 0; i < item.length; i++){

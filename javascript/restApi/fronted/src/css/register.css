@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.container-wrap {
+    width: 100%;
+    height: 100vh;
+    background: url("./img/v5n22xGyNNHLzSnSArbrVH.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container .menuPan{
+    width: 100%;
+    height: 60px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .nav ul{
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .nav ul li a {
+    color: #5cd1df;
+}
+
+.userPan {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fa-user{
+    font-size: 30px;
+    color: #5cd1df;
+}
+
+.logo {
+    color: #5cd1df;
+}
+
+#register-form #sub-form {
+    padding-top: 10px;
+    background-color: #494944;
+    opacity: 0.8;
+}
+
+
+#register-form #sub-form:hover {
+    box-shadow: #5cd1df 0px 5px 15px;
+}
+
+#register-form #sub-form h2{
+    color: white;
+}
+
+
+#register-form {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#register-form form{
+    width: 400px;
+}
+
+#register-form .input > p {
+    margin-top: 5px;
+    color: #5cd1df;
+    font-weight: 900;
+    text-align: left;
+    display: none;
+}
+ 
+#register-form .input {
+    padding: 10px;
+}
+
+#register-form .input input {
+    width: 96%;
+    height: 25px;
+    padding: 7px;
+    border-radius: 10px;
+    outline: medium
+}
+
+#register-form #male, #female{
+    width: 20px;
+    height: 20px;
+    color: #6e6a5e;
+}
+
+#register-form .input input[type="text"], 
+                      input[type="password"], 
+                      input[type="email"] {
+    font-size: 20px;
+    padding: 7px;
+}
+
+#register-form #submit {
+    width: 100%;
+    height: 39px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #5cd1df;
+    padding: 8px;
+}
+
+#register-form .gender{
+    width: 91%;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+}
+
+#register-form [name ="gender"]{
+    accent-color: #5cd1df;
+}
+
+.gender .male , .female{
+    width: 90px;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+
+.gender label {
+    color: white;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+#register-form .gender p {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.disable {
+    display: none;
+}
+
+.border-red{
+    border: 3px solid red;
+}
+
+.border-green {
+    border: 3px solid #5cd1df;
+}
+
