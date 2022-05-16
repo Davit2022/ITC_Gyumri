@@ -1,18 +1,14 @@
 import { t } from 'testcafe';
-import constant from '../constants/constant'
 
 class Page {
-    constructor(){
-        this.input = constant.input
-        this.btn = constant.btn
-    } 
+    constructor(){} 
 
-    async typeName(name) {
-        await t.typeText(this.input, name);
+    async typeName(input,name) {
+        await t.typeText(input, name);
     }
 
-    async clickSubmit() {
-        await t.click(this.btn);
+    async clickSubmit(btn) {
+        await t.click(btn);
     }
 }
 

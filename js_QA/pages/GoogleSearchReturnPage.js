@@ -1,13 +1,10 @@
-import {t } from 'testcafe';
-import constant from "../constants/constant"
+import { t } from 'testcafe';
 
 class SearchPage {
-    constructor(){
-        this.SearchResult = constant.another;
-    }
+    constructor(){}
 
-    async clickSearchResult(){
-        await t.click(this.SearchResult)
+    async clickSearchResult(SearchResult){
+        await t.click(SearchResult)
     }
 }
 
