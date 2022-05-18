@@ -7,43 +7,94 @@ interface Product {
 }
 
 class Wine implements Product {
-    n: number = 5;
-    price: number = 200;
-    date: string = '10/6/2022';
-    term: string = '20/7/2022';
-    onClick(): boolean {
+    n: number;
+    price: number;
+    date: string;
+    term: string;
+    private static instance: Wine;
+    private constructor(){
+        this.n= 5;
+        this.price = 200;
+        this.date = '10/6/2022';
+        this.term = '20/7/2022';
+    };
+    
+    public static getInstance(): Wine {
+        if (!this.instance) {
+            this.instance = new Wine();
+            return this.instance;
+        }
+        return this.instance;
+    }
+
+    public onClick(): boolean {
         if(this.n == 0){
             return false
         } 
         console.log(this.n - 1)
+        this.n = this.n -1
         return true
     }
 }
 
-class Bread implements  Product {
-    n: number = 10;
-    price: number = 200;
-    date: string = '10/6/2022';
-    term: string = '20/7/2022';
-    onClick(): boolean {
+class Bread implements Product {
+    n: number;
+    price: number;
+    date: string;
+    term: string;
+    private static instance: Bread;
+    private constructor(){
+        this.n= 10;
+        this.price = 200;
+        this.date = '10/6/2022';
+        this.term = '20/7/2022';
+    };
+    
+    public static getInstance(): Bread {
+        if (!this.instance) {
+            this.instance = new Bread();
+            return this.instance;
+        }
+        return this.instance;
+    }
+
+    public onClick(): boolean {
         if(this.n == 0){
             return false
         } 
         console.log(this.n - 1)
+        this.n = this.n -1
         return true
     }
 }
 
 class Cheese implements  Product {
-    n: number = 15;
-    price: number = 200;
-    date: string = '10/6/2022';
-    term: string = '20/7/2022';
-    onClick(): boolean {
+    n: number;
+    price: number;
+    date: string;
+    term: string;
+    private static instance: Cheese;
+    private constructor(){
+        this.n= 15;
+        this.price = 200;
+        this.date = '10/6/2022';
+        this.term = '20/7/2022';
+    };
+    
+    public static getInstance(): Cheese {
+        if (!this.instance) {
+            this.instance = new Cheese();
+            return this.instance;
+        }
+        return this.instance;
+    }
+
+    public onClick(): boolean {
         if(this.n == 0){
             return false
         } 
         console.log(this.n - 1)
+        this.n = this.n -1
         return true
     }
 }
@@ -51,22 +102,24 @@ class Cheese implements  Product {
 const readline = require('readline').createInterface({
     input: process.stdin,
     output: process.stdout
-  });
+});
   
-  readline.question('Which product are you interested in?', name => {
-      if(name == 'Win'){
-          const w = new Wine();
-          console.log(w.onClick());
-      } else if(name == 'Bread'){
-          const b = new Bread();
-          console.log(b.onClick());
-      } else if(name == 'Cheese'){
-          const c = new Cheese();
-          console.log(c.onClick())
-
-      }
+readline.question('Which product are you interested in?', name => {
+    if(name == 'Wine'){
+        const w = Wine.getInstance();
+        console.log(w.onClick());
+        console.log(w.onClick())
+    } else if(name == 'Bread'){
+        const b = Bread.getInstance();
+        console.log(b.onClick());
+        console.log(b.onClick())
+    } else if(name == 'Cheese'){
+        const c = Cheese.getInstance();
+        console.log(c.onClick())
+        console.log(c.onClick())
+    }
     readline.close();
-  });
+});
 
 
 
