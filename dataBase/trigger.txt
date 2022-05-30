@@ -1,0 +1,59 @@
+create database myShop
+
+use myShop
+
+create table users(
+id int auto_increment,
+name varchar(200) not null,
+email varchar(100) not null,
+primary key(id)
+)
+
+
+create table products(
+id int auto_increment,
+name varchar(200) not null,
+description varchar(200),
+primary key(id)
+)
+
+create table shopping_cart(
+id int auto_increment,
+user_id int not null,
+product_id int not null,
+count int not null,
+primary key(id),
+foreign key(user_id) references users(id),
+foreign key(product_id) references products(id)
+)
+
+insert into users(name,email)values
+('Girigor','grigor@gmail.com'),
+('Anna','anna@gmail.com'),
+('Sargis','sargis@gmail.com')
+
+insert into products(name,description)values
+('MacBookPro','A laptop'),
+('iPhone','A smart phone'),
+('iWatch','A smart watch')
+
+insert into shopping_cart (user_id,product_id,count)values
+(2,2,1),
+(1,3,2),
+(3,2,1)
+
+SELECT users.name as userName,products.name as productName,shopping_cart.count
+FROM myShop.shopping_cart
+inner join users on users.id = shopping_cart.user_id
+inner join products on product_id=shopping_cart.product_id
+
+DELIMITER $$
+
+CREATE TRIGGER beforeDelateUser
+    BEFORE DELETE
+    ON users FOR EACH ROW
+BEGIN
+    delete from shopping_cart where user_id=users.id
+END  
+
+DELIMITER ;
